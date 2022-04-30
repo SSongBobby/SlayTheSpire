@@ -8,7 +8,8 @@ int main()
     C_UI* pUI = new C_MENU();
     
      pUI->printUI();
-     pUI->getUserInput();
+     pUI->insertNum();
+     pUI->numReaction();
     // 시작 
     // menu 프린트
     // 입력받음

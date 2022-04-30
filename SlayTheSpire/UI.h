@@ -8,12 +8,14 @@ public:
 	const C_UI operator= (const C_UI&) = delete;
 
 	virtual void printUI() = 0;
+	virtual void numReaction() = 0;
 
 	virtual ~C_UI() {};
 
 	bool getIsPlaying();
 	void setIsPlaying(bool isPlaying_);
 	int getUserInput();
+	void insertNum();
 
 	int nUserInput;
 

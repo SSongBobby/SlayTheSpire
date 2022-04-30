@@ -22,4 +22,22 @@ void C_MENU::printUI()
 
 }
 
+void C_MENU::numReaction()
+{
+	if (nUserInput == 1)
+	{
+		cout << "게임을 시작합니다." << endl;
+		setIsPlaying(true);
+	}
+	else if (nUserInput == 2)
+	{
+		cout << "게임을 종료합니다." << endl;
+	}
+	else
+	{
+		cout << "다시 입력하세요." << endl;
+		insertNum();
+	}
+}
+
 

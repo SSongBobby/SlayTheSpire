@@ -9,6 +9,8 @@ public:
 
 	virtual void printUI() override;
 
+	virtual void numReaction() override;
+
 private:
 
 };
