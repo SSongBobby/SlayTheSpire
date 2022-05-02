@@ -1,13 +1,13 @@
-#include "C_MENU.h"
+#include "C_UI_MENU.h"
 #include <iostream>
 using namespace std;
 
-C_MENU::C_MENU()
+C_UI_MENU::C_UI_MENU()
 {
 	nUserInput = 0;
 }
 
-void C_MENU::printUI()
+void C_UI_MENU::printUI()
 {
 	if (getIsPlaying() == false)
 	{
@@ -22,7 +22,7 @@ void C_MENU::printUI()
 
 }
 
-void C_MENU::numReaction()
+void C_UI_MENU::numReaction()
 {
 	if (nUserInput == 1)
 	{
@@ -37,6 +37,7 @@ void C_MENU::numReaction()
 	{
 		cout << "다시 입력하세요." << endl;
 		insertNum();
+		numReaction();					// 나중에 조립할 때 재귀안쓰도록 바꾸자!
 	}
 }
 

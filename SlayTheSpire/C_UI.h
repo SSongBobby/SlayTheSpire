@@ -17,6 +17,9 @@ public:
 	int getUserInput();
 	void insertNum();
 
+	void setChracterPlayer();
+	int getChracterPlayer();
+
 	int nUserInput;
 
 private:

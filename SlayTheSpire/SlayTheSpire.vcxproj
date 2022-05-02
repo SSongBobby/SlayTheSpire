@@ -139,21 +139,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C_MENU.cpp" />
+    <ClCompile Include="C_CHRACTER.cpp" />
+    <ClCompile Include="C_UI_CHRACTERPLAYER.cpp" />
+    <ClCompile Include="C_UI_MENU.cpp" />
     <ClCompile Include="C_USERINPUT.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="SlayTheSpire.cpp" />
-    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="C_UI.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CChracter.h" />
+    <ClInclude Include="C_CHRACTER.h" />
+    <ClInclude Include="C_CHRACTER_PLAYER.h" />
+    <ClInclude Include="C_UI_CHRACTERPLAYER.h" />
     <ClInclude Include="C_USERINPUT.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="UI.h" />
-    <ClInclude Include="C_MENU.h" />
-    <ClInclude Include="헤더.h" />
+    <ClInclude Include="C_UI.h" />
+    <ClInclude Include="C_UI_MENU.h" />
+    <ClInclude Include="C_KNIGHT.h" />
+    <ClInclude Include="C_MAGICIAN.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

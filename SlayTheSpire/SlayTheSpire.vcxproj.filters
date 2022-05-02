@@ -18,30 +18,45 @@
     <ClCompile Include="SlayTheSpire.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C_MENU.cpp">
+    <ClCompile Include="C_UI_MENU.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="UI.cpp">
+    <ClCompile Include="C_UI.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="C_USERINPUT.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="C_CHRACTER.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_UI_CHRACTERPLAYER.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CChracter.h">
+    <ClInclude Include="C_CHRACTER.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="UI.h">
+    <ClInclude Include="C_UI.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="C_MENU.h">
+    <ClInclude Include="C_UI_MENU.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="C_USERINPUT.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="헤더.h">
+    <ClInclude Include="C_KNIGHT.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CHRACTER_PLAYER.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C_MAGICIAN.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C_UI_CHRACTERPLAYER.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

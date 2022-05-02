@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    C_UI* pUI = new C_MENU();
+    C_UI* pUI = new C_UI_MENU();
     
      pUI->printUI();
      pUI->insertNum();

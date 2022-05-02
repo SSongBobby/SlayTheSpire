@@ -1,11 +1,11 @@
 #pragma once
-#include "UI.h"
+#include "C_UI.h"
 #include "C_USERINPUT.h"
 
-class C_MENU : public C_UI
+class C_UI_MENU : public C_UI
 {
 public:
-	C_MENU();
+	C_UI_MENU();
 
 	virtual void printUI() override;
 
